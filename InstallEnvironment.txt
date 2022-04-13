@@ -10,8 +10,4 @@ echo ====================================
 echo Downloading REACT GUI . . .
 git clone --branch buttonless https://github.com/lombax5832/react-fawlty ../STINGER-OP-Deploy/REACT-GUI
 
-echo ====================================
-echo Installing Docker Desktop . . .
-winget install –id=Docker.DockerDesktop -e && winget install –id=Docker.DockerDesktop -e && winget install –id=Docker.DockerDesktop -e
-
 PAUSE
