@@ -1,0 +1,1 @@
+TASKKILL /f /FI "WINDOWTITLE eq LPG-WebSocket"
