@@ -1,1 +1,4 @@
 TASKKILL /f /FI "WINDOWTITLE eq LPG-WebSocket"
+cd /D ../STINGER-OP-Deploy/ENGINE-SOCKET
+CALL dockerStop.bat
+TASKKILL /f /FI "WINDOWTITLE eq LPG-Docker"
