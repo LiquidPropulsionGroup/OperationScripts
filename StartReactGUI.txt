@@ -1,9 +1,0 @@
-:: Control what gets printed
-echo off
-cls
-
-cd /D ../STINGER-OP-Deploy/REACT-GUI
-set location= %cd%
-::echo %PATH%
-
-call serve -s build
