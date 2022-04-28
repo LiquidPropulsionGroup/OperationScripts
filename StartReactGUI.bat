@@ -8,3 +8,4 @@ set location= %cd%
 
 Start http://localhost:5000
 call serve -s build
+PAUSE
